@@ -13,7 +13,6 @@ phone int,
 DOB Datetime not null,
 Department_ID varchar not null,
 job_ID int not null,);
-
 CREATE TABLE Departments
 (Department_ID int primary key not null,
 Department_Name varchar(30) not null,
